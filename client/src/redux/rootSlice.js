@@ -4,7 +4,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const fetchPortfolioData = createAsyncThunk(
     'root/fetchPortfolioData',
     async () => {
-        const response = await fetch('https://my-mern-portfolio-api.vercel.app/get.portfolio.data'); // replace with your actual API endpoint
+        const response = await fetch('https://my-mern-portfolio-api.vercel.app/api/portfolio/get.portfolio.data'); // replace with your actual API endpoint
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
