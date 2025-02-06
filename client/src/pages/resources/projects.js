@@ -1,0 +1,42 @@
+export const projects = [
+    {
+        technologies:[],
+        id:"10",
+        title:"My Portfolio",
+        image:"https://icon-library.com/images/portfolio-icon-png/portfolio-icon-png-4.jpg",
+        description:" A personal portfolio showcasing my web development skills and projects in a visually appealing layout",
+        link:"/",
+    },
+    {
+        technologies:[],
+        id:"11",
+        title:"Amazon Clone",
+        image:"https://icons.iconarchive.com/icons/uiconstock/e-commerce/256/amazon-icon.png",
+        description:"A fully functional e-commerce website that allows users to browse products, add them to a cart, and securely checkout.",
+        link:"/",
+    },
+    {
+        technologies:[],
+        id:"12",
+        title:"Sustainable development",
+        image:"https://media.licdn.com/dms/image/D4D12AQF1CsZ2OvBL-A/article-cover_image-shrink_600_2000/0/1693551205014?e=2147483647&v=beta&t=OYe1K8EAzreohc4Z8WBwnsbjGm8T_MHOUgX-nOjzgE8",
+        description:"An informative platform dedicated to raising awareness and promoting practices for sustainable development and environmental conservation.",
+        link:"/",
+    },
+    {
+        technologies:[],
+        id:"13",
+        title:"Basic Calculator",
+        image:"https://static.vecteezy.com/system/resources/thumbnails/018/972/682/small_2x/calculator-3d-application-icon-png.png",
+        description:" A simple yet powerful calculator app that performs basic arithmetic operations with a user-friendly interface.",
+        link:"/",
+    },
+    {
+        technologies:[],
+        id:"14",
+        title:"Guessing number",
+        image:"https://cdn3d.iconscout.com/3d/premium/thumb/numbers-3d-icon-download-in-png-blend-fbx-gltf-file-formats--scattered-number-knowledge-blocks-pack-icons-6360299.png?f=webp",
+        description:"An interactive guessing game where users try to guess a randomly generated number within a limited number of attempts.",
+        link:"/",
+    },
+]
